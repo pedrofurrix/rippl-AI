@@ -412,7 +412,7 @@ def prediction_parser(LFP,arch='CNN1D',model_number=1,new_model=None,n_channels=
         y_predict= np.zeros(shape=(input_len,1,1))
         # model load
         if new_model==None:
-            
+    
             clf=fcn_load_pickle(os.path.join('optimized_models',filename))#.calibrated_classifiers_[0]
         else:
             clf=new_model

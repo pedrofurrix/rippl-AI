@@ -26,7 +26,7 @@ def load_experimental_data(path,name, downsample = False, normalize = False, num
                            start = start, verbose=verbose, original_fs=original_fs,channel_num=None,
                            invert=invert,offset=offset,load_data=load_data,channels=channel,scale_data=scale_data)
     
-    filtered_signal = None
+    liset_data= None
     if load_data:
         # channel_data= liset.data[:].reshape(-1)
         liset_data= liset.data

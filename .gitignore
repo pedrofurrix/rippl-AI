@@ -4,3 +4,5 @@ Downloaded_data
 
 #detections/
 probabilities/
+detections/*
+!detections/all_networks_metrics_ripplAI.csv
